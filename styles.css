@@ -10,33 +10,48 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-
 /* Стили для секции перед навигационным меню */
 .contact-info {
+    display: flex;
+    justify-content: space-between; /* Распределяем элементы по краям */
+    align-items: center; /* Выравниваем элементы по вертикали */
     background-color: #f5f5f5;
     padding: 20px;
 }
 
-.contact-icons {
-    margin-top: 10px;
+.contact-info .left-content {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
 }
 
-.contact-icons a {
-    margin-right: 10px;
+.contact-info .right-content {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.contact-icons {
+    margin-right: 10px; /* отступ между иконками мессенджеров */
 }
 
 .registration {
-    margin-top: 20px;
+    margin-top: 20px; /* Увеличиваем отступ сверху */
 }
 
 .registration .btn {
-    margin-right: 10px;
+    margin-right: 10px; /* Увеличиваем отступ между кнопками */
 }
+
+.contact-info .right-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Размещаем содержимое справа */
+}
+
 
 /* Стили для навигационного меню */
 nav {
     padding: 2px 0; /* Задание отступов вверху и внизу */
-    background-color: #05028f; /* Цвет фона навигационного меню */
+    background-color: #05028f; 
 }
 
 nav ul {
@@ -66,8 +81,6 @@ nav ul li a:hover {
     background-image: url('images/atlantika.png');
     background-size: 1440px 682px; /* Задаем конкретные размеры для фоновой картинки */
     background-position: center; /* Центрируем фоновую картинку */
-    text-align: left; /* Выравниваем текст по левому краю */
-    position: relative; /* Позволяет позиционировать элементы относительно этой секции */
 }
 
 .main-section h1 {
@@ -92,11 +105,11 @@ nav ul li a:hover {
     color: #ffffff; /* Настраиваемый цвет текста */
 }
 
-.registration {
+/* .registration {
     position: absolute;
     top: 20px;
     right: 20px;
-}
+} */
 
 /* Стили для кнопок */
 button {
@@ -147,9 +160,8 @@ footer nav ul li a:hover {
 }
 /* Стили для секции с логотипами брендов */
 .brand-logos {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Создаем шесть столбцов */
-    grid-gap: 10px; /* Отступы между изображениями */
+    display: flex; /* Изменяем на flex */
+    flex-wrap: wrap; /* Перенос элементов на новую строку, если они не помещаются в одну строку */
     justify-content: center; /* Выравниваем по центру */
     align-items: center; /* Выравниваем по центру */
 }
@@ -157,6 +169,7 @@ footer nav ul li a:hover {
 .brand-logos img {
     max-width: 130px; /* Максимальная ширина изображений */
     height: 98px; /* Автоматическая высота */
+    margin: 5px; /* Добавляем небольшие отступы между изображениями */
 }
 
 /* Заклик до дії */
@@ -260,9 +273,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     padding: 20px 0;
+    /* Центрируем содержимое футера по горизонтали */
+    justify-content: center;
 }
 
 .footer-left,
@@ -270,6 +285,3 @@ footer {
     flex: 1;
 }
 
-.footer-center {
-    flex: 0;
-}
