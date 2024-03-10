@@ -1,14 +1,14 @@
 /* Общие стили */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 /* Стили для секции перед навигационным меню */
 .contact-info {
@@ -55,24 +55,24 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #05028f;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #05028f;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 24px;
+  display: inline;
+  margin-right: 24px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 /* Стили для главной секции */
@@ -84,25 +84,25 @@ nav ul li a:hover {
 }
 
 .main-section h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #ffffff; /* Настраиваемый цвет текста */
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Настраиваемый цвет текста */
 }
 
 .main-section p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #ffffff; /* Настраиваемый цвет текста */
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Настраиваемый цвет текста */
 }
 
 .main-section ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .main-section ul li {
-    margin-bottom: 10px;
-    color: #ffffff; /* Настраиваемый цвет текста */
+  margin-bottom: 10px;
+  color: #ffffff; /* Настраиваемый цвет текста */
 }
 
 /* .registration {
@@ -113,50 +113,50 @@ nav ul li a:hover {
 
 /* Стили для кнопок */
 button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Стили для футера */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 footer div,
 footer nav {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 footer nav ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 footer nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 footer nav ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 footer nav ul li a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 .social-icons a {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 /* Стили для секции с логотипами брендов */
 .brand-logos {
@@ -174,99 +174,99 @@ footer nav ul li a:hover {
 
 /* Заклик до дії */
 .custom-section {
-    background-image: url('images/photo 2.png');
-    background-size: cover; /* Растягиваем изображение на всю область секции */
-    background-position: center; /* Центрируем изображение */
-    color: #ffffff; /* Цвет текста */
-    text-align: center; /* Выравнивание текста по центру */
-    padding: 50px 0; /* Внутренние отступы для контента */
+  background-image: url("images/photo 2.png");
+  background-size: cover; /* Растягиваем изображение на всю область секции */
+  background-position: center; /* Центрируем изображение */
+  color: #ffffff; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  padding: 50px 0; /* Внутренние отступы для контента */
 }
 
 .custom-section .content {
-    max-width: 600px; /* Максимальная ширина контейнера с контентом */
-    margin: 0 auto; /* Выравниваем по центру */
+  max-width: 600px; /* Максимальная ширина контейнера с контентом */
+  margin: 0 auto; /* Выравниваем по центру */
 }
 
 .custom-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .custom-section p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .custom-section button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .custom-section button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 /* Секция с формой для вопросов */
 .question-section {
-    background-color: #f5f5f5;
-    color: #000000;
-    text-align: center;
-    padding: 50px 0;
+  background-color: #f5f5f5;
+  color: #000000;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .question-section .content {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .question-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .question-section p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .question-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .question-section form div {
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: left;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
 }
 
 .question-section label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .question-section input[type="text"],
 .question-section input[type="tel"],
 .question-section input[type="email"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .question-section button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .question-section button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 /* Стили для футера */
 footer {
@@ -282,6 +282,6 @@ footer {
 
 .footer-left,
 .footer-right {
-    flex: 1;
+  flex: 1;
 }
 
