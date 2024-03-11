@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -13,29 +14,27 @@ body {
 /* Стили для секции перед навигационным меню */
 .contact-info {
     display: flex;
-    justify-content: space-between; /* Распределяем элементы по краям */
-    align-items: center; /* Выравниваем элементы по вертикали */
+    justify-content: space-between; /* элементы по краям */
+    align-items: center; /*элементы по вертикали */
     background-color: #f5f5f5;
     padding: 20px;
 }
 
 .contact-info .left-content {
     display: flex;
-    align-items: center; /* Выравниваем элементы по вертикали */
+    align-items: center; /*  элементы по вертикали */
 }
 
 .contact-info .right-content {
     display: flex;
-    align-items: center; /* Выравниваем элементы по вертикали */
+    align-items: center; /*элементы по вертикали */
 }
 
 .contact-icons {
     margin-right: 10px; /* отступ между иконками мессенджеров */
 }
 
-.registration {
-    margin-top: 20px; /* Увеличиваем отступ сверху */
-}
+
 
 .registration .btn {
     margin-right: 10px; /* Увеличиваем отступ между кнопками */
@@ -51,14 +50,14 @@ body {
 /* Стили для навигационного меню */
 nav {
     padding: 2px 0; /* Задание отступов вверху и внизу */
-    background-color: #05028f; 
+    background-color: #283761; 
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  background-color: #05028f;
+  background-color: #283761;
 }
 
 nav ul li {
@@ -105,23 +104,20 @@ nav ul li a:hover {
   color: #ffffff; /* Настраиваемый цвет текста */
 }
 
-/* .registration {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-} */
-
 /* Стили для кнопок */
 button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #01A0C6;
   color: #fff;
   border: none;
   cursor: pointer;
+  border: 1px solid #01A0C6;
+  border-radius: 8px;
+
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #01A0C6;
 }
 
 /* Стили для футера */
@@ -162,14 +158,16 @@ footer nav ul li a:hover {
 .brand-logos {
     display: flex; /* Изменяем на flex */
     flex-wrap: wrap; /* Перенос элементов на новую строку, если они не помещаются в одну строку */
-    justify-content: center; /* Выравниваем по центру */
-    align-items: center; /* Выравниваем по центру */
+    justify-content: center; /*по центру */
+    align-items: center; /* по центру */
+    margin-bottom: 26px; /* Добавляем отступ снизу между блоками */
+    margin-top: 26px; /* Добавляем отступ сверху между блоками */
 }
 
 .brand-logos img {
     max-width: 130px; /* Максимальная ширина изображений */
     height: 98px; /* Автоматическая высота */
-    margin: 5px; /* Добавляем небольшие отступы между изображениями */
+    margin: 32px; /* Добавляем небольшие отступы между изображениями */
 }
 
 /* Заклик до дії */
